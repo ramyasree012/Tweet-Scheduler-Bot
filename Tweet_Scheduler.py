@@ -22,8 +22,8 @@ quotes=quotes[:5]
 #print(len(quotes))
 #print(quotes)
 
-auth = tweepy.OAuthHandler("A0k60J8Q2mrGTtnIr6goSnVhq", "E5tCD3w3LeSAz0F8PEQhWV8tDZ0cRnskJGpjyuUCGCORIAvcuJ")
-auth.set_access_token("1416829817354293249-NfPGy9uEKV7Rg43Pj2o7xhm6ti3z6M", "2gBNEWTJlijntKpw8iFo96SBg48TjeunfmIlRWJFkHgxD")
+auth = tweepy.OAuthHandler("", "")
+auth.set_access_token("", "")
 
 api = tweepy.API(auth)
 
@@ -34,8 +34,8 @@ except:
     print("Error during Authentication")
 
 def send_message():
-    auth = tweepy.OAuthHandler("A0k60J8Q2mrGTtnIr6goSnVhq", "E5tCD3w3LeSAz0F8PEQhWV8tDZ0cRnskJGpjyuUCGCORIAvcuJ")
-    auth.set_access_token("1416829817354293249-NfPGy9uEKV7Rg43Pj2o7xhm6ti3z6M", "2gBNEWTJlijntKpw8iFo96SBg48TjeunfmIlRWJFkHgxD")
+    auth = tweepy.OAuthHandler("", "")
+    auth.set_access_token("", "")
 
     api = tweepy.API(auth)
 
